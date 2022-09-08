@@ -2,7 +2,7 @@
 */
 let valor, juros = 0.70, total
 valor = prompt("Informe o valor depositado: ");
-total = valor+(valor*juros)/100;
-alert("O valor depositado acrescido de "+juros+" de juros após um mês é igual a R$"+total);
+total = parseFloat(valor)+(valor*juros)/100;
+alert("O valor depositado acrescido de "+juros+" de juros após um mês é igual a R$"+parseFloat(total));
 
 

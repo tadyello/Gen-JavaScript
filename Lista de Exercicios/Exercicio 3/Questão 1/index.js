@@ -4,5 +4,5 @@ let custo, por, lucro, venda
 custo = prompt("Informe o valor de custo do produto: ");
 porc = prompt("Informe a porcentagem de lucro: ");
 lucro = custo*(porc/100);
-venda = parseInt(lucro) + parseInt(custo);
-alert("O valor de venda do produto é R$"+ venda);
+venda = parseFloat(lucro) + parseFloat(custo);
+alert("O valor de venda do produto é R$"+ parseFloat(venda));
