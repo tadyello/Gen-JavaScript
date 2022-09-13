@@ -13,17 +13,17 @@ indice = prompt("Informe o valor do índice de poluição:")
 
 if(indice >= 0.05 && indice <= 0.25)
 {
-    alert("O índice de poluição está dentro do aceitável!")
+    alert("O índice de poluição está dentro do aceitável!") 
 }
-if(indice >= 0.30 && indice <= 0.39)
+else if(indice >= 0.30 && indice <= 0.39)
 {
     alert("As indústrias do 1° grupo devem suspender suas atividades!")
 }
-if(indice >= 0.40 && indice <= 0.49)
+else if(indice >= 0.40 && indice <= 0.49)
 {
     alert("As indústrias do 1° e 2° grupo devem suspender suas atividades!.")
 }
-if(indice >= 0.5)
+else if(indice >= 0.5)
 {
     alert("As indústrias dos 3 grupos devem suspender suas atividades!")
 }
