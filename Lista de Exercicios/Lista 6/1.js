@@ -1,25 +1,21 @@
-let i, salario, filhos, mediaF, maiorSal, sal100 = 0.00, soma = 0.00, mediaSal = 0.00
+let i, salario = 0, filhos = 0, maiorSal = 0, sal100 = 0, soma = 0, mediaSal = 0, mediaF = 0, perc = 0
 
-for (i = 0; i <= 4; i++)
- {
-    salario = prompt("Digite o salário: ")
-    filhos = prompt("Digite o numero de filhos: ")
+for (i = 0; i <= 4; i++) {
+    salario = parseInt(prompt("Digite o salário: "))
+    filhos = parseInt(prompt("Digite o numero de filhos: "))
     soma += salario
     mediaF += filhos
 }
-    if (mSal < salario) 
-        mSal = salario
-    
-    if (salario <= 100)
-    {
-        sal100++
-    }
+if (salario <= 100) {
+    sal100++
+}
+if (maiorSal < salario) {
+    maiorSal = salario
+}
 mediaSal = soma / 5
 mediaF = mediaF / 5
-perc = (sal100 / 5) * 100.00
-{
-alert("\nA média do salário da população é "+ mediaSal)
-alert("\nA média de filhos da população é "+ mediaF)
-alert("\nO Maior salário foi "+ mSal)
-alert("\nO Percentual de pessoas com salário até"+ "100 reais é:  "+ perc+ "%" )
-}
+perc = sal100 * 100 / 5
+alert("\nA média do salário da população é R$" + mediaSal)
+alert("\nA média do número de filhos da população é " + mediaF)
+alert("\nO Maior salário foi de R$" + maiorSal)
+alert("\nO Percentual de pessoas com salário até " + "100 reais é:  " + sal100 + "%")
