@@ -1,3 +1,6 @@
+/*//2- Desenvolver um sistema que efetue a soma de todos os números ímpares que são
+múltiplos de três e que se encontram no conjunto dos números de 1 até 500.*/
+
 let soma = 0, x
 
 for (x = 1; x <= 500; x++)
