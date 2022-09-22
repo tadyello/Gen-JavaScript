@@ -5,7 +5,7 @@ let peso, altura
 function calcIMC() {
     peso = parseFloat(prompt("Digite o peso da pessoa:"));
     altura = parseFloat(prompt("Digite a altura:"));
-    imc = peso /(altura*altura);
+    imc = peso /(altura*altura)
     return alert("O IMC de uma pessoa com "+ imc);
     } 
     calcIMC(peso,altura);

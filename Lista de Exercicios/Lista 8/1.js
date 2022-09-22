@@ -2,9 +2,9 @@
 */
 let n1, n2, n3
 
-n1 = parseFloat(prompt("Digite o primeiro número:"))
-n2 = parseFloat(prompt("Digite o segundo número:"))
-n3 = parseFloat(prompt("Digite o terceiro número:"))
+n1 = parseFloat(prompt("Digite o primeiro número:"));
+n2 = parseFloat(prompt("Digite o segundo número:"));
+n3 = parseFloat(prompt("Digite o terceiro número:"));
 
 function maiorNum() {
     if (n1 > n2 && n1 > n3) {
@@ -15,7 +15,7 @@ function maiorNum() {
     }else if (n3 > n1 && n3 > n2) {
         maior = n3
     }
-    return alert("O maior número infomado foi " + maior)
+    return alert("O maior número infomado foi " + maior);
 }
 function menorNum() {
     if (n1 < n2 && n1 < n3) {
@@ -26,7 +26,7 @@ function menorNum() {
     }else if (n3 < n1 && n3 < n2) {
         menor = n3
     }
-    return alert("O menor número infomado foi " + menor)
+    return alert("O menor número infomado foi " + menor);
 }
-maiorNum(n1, n3, n3)
-menorNum(n1, n3, n3)
+maiorNum(n1, n3, n3);
+menorNum(n1, n3, n3);
